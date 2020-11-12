@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EntryDialog</class>
+ <widget class="QDialog" name="EntryDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>14</y>
+     <width>39</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Room:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>45</y>
+     <width>37</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Class:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>75</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Course:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>105</y>
+     <width>52</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Teacher:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="room">
+   <property name="geometry">
+    <rect>
+     <x>67</x>
+     <y>14</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="class_2">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>43</y>
+     <width>371</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>1a</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1b</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1c</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1d</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="course">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>73</y>
+     <width>371</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>math</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ph</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>eng</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>polish</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="teacher">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>103</y>
+     <width>371</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>json1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>json2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>json3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>json4</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="Unassign">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>139</y>
+     <width>91</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Unassign</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>112</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>140</y>
+     <width>112</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
